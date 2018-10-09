@@ -6,7 +6,7 @@ The only non-Anaconda library is the Levenshtein library, which
 can be installed with pip install python-Levenshtein
 '''
 
-import shutil, os, itertools, sys
+import shutil, os, itertools, sys, platform
 import re, time, copy, sqlite3
 import Levenshtein, pickle, json
 from multiprocessing import Pool
